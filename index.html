@@ -1,47 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-      <link href="/dist/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrontStreet</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-gray-900 text-white">
+    <!-- Hero Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl font-bold mb-4">FrontStreet: Empowering Boston's Black Artists</h1>
+        <p class="text-lg mb-8">FrontStreet is a groundbreaking platform designed to elevate Black artists in Boston. We're tackling systemic inequities in the art world head-on. Our mission: to amplify voices, showcase talent, and drive meaningful change in the arts community.</p>
+        <a href="waitlist.html" class="btn btn-primary">Join the Waitlist</a>
+      </div>
+    </section>
 
-   <!-- Example card using DaisyUI classes -->
-    <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-            <h2 class="card-title">Hero Section</h2>
-            <p>Value Proposition...</p>
+    <!-- Features Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Key Features: Amplifying Artistic Voices</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-4">Artist Profiles</h3>
+            <p>Customizable spaces for artists to showcase their work and connect with collectors. Bios and portfolios available.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Discovery Feed</h3>
+            <p>AI-powered recommendations introduce users to new talent. Our algorithm ensures fair exposure for all artists on the platform.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Event Listings</h3>
+            <p>Comprehensive calendar of exhibitions, openings, and workshops. Users stay connected to Boston's vibrant Black art scene.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Collector Tools</h3>
+            <p>Seamless browsing and purchasing of available art. Collectors can easily inquire about purchasing from artists directly.</p>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <br>
-
-     <!-- Example card using DaisyUI classes -->
-    <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-            <h2 class="card-title">Features Section</h2>
-            <p>Highlighting key benefits...</p>
+    <!-- Social Proof Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8">What Our Users Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <p class="mb-4">"FrontStreet has been a game-changer for my art career. The platform has helped me reach a much wider audience and connect with collectors I never would have found otherwise."</p>
+            <div class="flex items-center">
+              <img src="testimonial-1.png" alt="Testimonial 1" class="rounded-full mr-4" />
+              <div>
+                <h4 class="font-bold">Avery Johnson</h4>
+                <p class="text-gray-400">Artist</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <p class="mb-4">"I'm so grateful for FrontStreet and the way it has amplified the voices of Black artists in Boston. It's helping to break down barriers and create more opportunities for us."</p>
+            <div class="flex items-center">
+              <img src="testimonial-2.png" alt="Testimonial 2" class="rounded-full mr-4" />
+              <div>
+                <h4 class="font-bold">Kai Brown</h4>
+                <p class="text-gray-400">Artist</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg">
+            <p class="mb-4">"FrontStreet has been a revelation. The platform's commitment to diversity and inclusion is so refreshing, and I've discovered so many incredible artists that I wouldn't have found otherwise."</p>
+            <div class="flex items-center">
+              <img src="testimonial-3.png" alt="Testimonial 3" class="rounded-full mr-4" />
+              <div>
+                <h4 class="font-bold">Jordan Lee</h4>
+                <p class="text-gray-400">Art Collector</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <br>
-
-       <!-- Example card using DaisyUI classes -->
-    <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-            <h2 class="card-title">Social Proof Section</h2>
-            <p>Potential testimonials...</p>
-        </div>
-    </div>
-
-    <br>
-
-  <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Explore FrontStreet</button>
-
-  </body>
+    <!-- Call to Action -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Join the Movement: Invest in Diversity</h2>
+        <p class="text-lg mb-8">Your investment directly supports Black artists in Boston. We're creating immediate opportunities for exposure and sales, while also driving systemic change in the art world.</p>
+        <a href="waitlist.html" class="btn btn-primary">Join the Waitlist</a>
+      </div>
+    </section>
+  </div>
+</body>
 </html>

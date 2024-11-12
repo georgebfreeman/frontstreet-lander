@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrontStreet Waitlist</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-r from-pink-400 to-purple-400 text-white">
+    <section class="py-20 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+      <div class="max-w-xl w-full bg-gray-900 p-8 rounded-lg">
+        <h1 class="text-4xl font-bold mb-4">Empowering Boston's Black Creative Community on FrontStreet</h1>
+        <p class="text-lg mb-8">Our mission at FrontStreet is to amplify diverse voices, showcase exceptional talent, and drive meaningful change within the local arts community. If you're interested in our movement you can sign up here...</p>
+        <div class="bg-white rounded-lg p-6 shadow-lg">
+          <h2 class="text-2xl font-bold mb-4 text-gray-900">Join the Waitlist</h2>
+          <form>
+            <div class="mb-4">
+              <label for="first-name" class="block text-gray-700 font-bold mb-2">First Name</label>
+              <input type="text" id="first-name" name="first-name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200" placeholder="John" required>
+            </div>
+            <div class="mb-4">
+              <label for="last-name" class="block text-gray-700 font-bold mb-2">Last Name</label>
+              <input type="text" id="last-name" name="last-name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200" placeholder="Doe" required>
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+              <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-200" placeholder="john@example.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-full" onclick="window.location.href='thank-you.html'">Join the Waitlist</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
