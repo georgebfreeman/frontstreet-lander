@@ -403,7 +403,29 @@
                                         alt="FrontStreet App Interface"
                                         class="w-full h-full object-cover"
                                 >
-                            </div>
+                            </div><!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Index Page</title>
+
+                                <!-- Add this script -->
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function() {
+                                        var buttons = document.querySelectorAll("button");
+                                        buttons.forEach(function(button) {
+                                            button.addEventListener("click", function() {
+                                                window.location.href = "waitlist.html";
+                                            });
+                                        });
+                                    });
+                                </script>
+                            </head>
+                            <body>
+                            <!-- Your content here -->
+                            </body>
+                            </html>
                         </div>
                     </div>
 
